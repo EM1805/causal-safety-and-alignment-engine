@@ -94,28 +94,6 @@ in high-stakes or regulated environments.
 
 ---
 
-## Architecture
-
-```
-Client / System
-      |
-      |  POST /causal/run
-      v
-Causal Safety API (FastAPI)
-      |
-      |  isolated execution
-      v
-pcb_one_click engine
-      |
-      |  artifacts
-      v
-edges.csv / insights.csv
-```
-
-Each execution runs in an isolated directory identified by a unique `run_id`.
-
----
-
 ## Repository Structure
 
 ```
@@ -138,43 +116,6 @@ runs/
 
 ---
 
-## API Usage
-
-### Health Check
-
-```http
-GET /health
-```
-
-Response:
-```json
-{
-  "status": "ok",
-  "engine": "available",
-  "version": "1.1"
-}
-```
-
----
-
-### Run Causal Analysis
-
-```http
-POST /causal/run
-```
-
-**Form-data**
-- `file`: CSV dataset
-- `target`: target variable name
-
-Example:
-
-```bash
-curl -X POST http://localhost:8000/causal/run   -F "file=@data.csv"   -F "target=target"
-```
-
----
-
 ## Safety & Certification Pipeline
 
 The project includes a fully automated CI pipeline with:
@@ -183,16 +124,6 @@ The project includes a fully automated CI pipeline with:
 - Causal safety stress tests
 - Multi-run stability tests
 - API health and integration tests
-
----
-
-## Deployment
-
-The API is designed to run as:
-- private internal service
-- on-premise deployment
-- containerized microservice
-- controlled startup SaaS backend
 
 ---
 

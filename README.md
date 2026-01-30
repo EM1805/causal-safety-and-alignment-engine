@@ -7,7 +7,6 @@
 [![Causal Engine – Determinism Check](https://github.com/EM1805/causal-safety-engine/actions/workflows/determinism-ci.yml/badge.svg)](https://github.com/EM1805/causal-safety-engine/actions/workflows/determinism-ci.yml)
 [![Causal Safety Stress Test](https://github.com/EM1805/causal-safety-engine/actions/workflows/causal-safety-stress-ci.yml/badge.svg)](https://github.com/EM1805/causal-safety-engine/actions/workflows/causal-safety-stress-ci.yml)
 [![Functional CI](https://github.com/EM1805/causal-safety-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/EM1805/causal-safety-engine/actions/workflows/ci.yml)
-[![Causal Engine – Stability Certification](https://github.com/EM1805/causal-safety-engine/actions/workflows/stability-ci.yml/badge.svg)](https://github.com/EM1805/causal-safety-engine/actions/workflows/stability-ci.yml)
 [![Causal Engine – No False Positives (Release Gate)](https://github.com/EM1805/causal-safety-engine/actions/workflows/no-false-positives.yml/badge.svg)](https://github.com/EM1805/causal-safety-engine/actions/workflows/no-false-positives.yml)
 [![Causal Silence Gate – No False Positives](https://github.com/EM1805/causal-safety-engine/actions/workflows/causal_silence_gate.yml/badge.svg)](https://github.com/EM1805/causal-safety-engine/actions/workflows/causal_silence_gate.yml)
 

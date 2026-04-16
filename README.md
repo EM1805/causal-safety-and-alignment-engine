@@ -135,11 +135,4 @@ The project includes a fully automated CI pipeline with:
 
 ---
 
-## Partnerships & Licensing
 
-This project is designed for:
-- industrial partnerships
-- OEM integration
-- startup studio collaboration
-
-For partnership, licensing, or deployment discussions, please contact the project owner.
